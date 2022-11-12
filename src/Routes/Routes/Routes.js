@@ -37,7 +37,7 @@ export const routes = createBrowserRouter([
         path: "/update/:id",
         element: <Update></Update>,
         loader: ({ params }) =>
-          fetch(`https://new-server-orpin.vercel.app/review/${params.id}`),
+          fetch(`https://new-server-es1pgz6bj-adrikasaha.vercel.app/review/${params.id}`),
       },
       {
         path: "/myreviews",
@@ -49,20 +49,20 @@ export const routes = createBrowserRouter([
       },
       {
         path: "/services",
-        loader: () => fetch("https://new-server-orpin.vercel.app/services"),
+        loader: () => fetch("https://new-server-es1pgz6bj-adrikasaha.vercel.app/services"),
         element: <Services></Services>,
       },
       {
         path: "/services/:id",
         element: <ServiceDetails></ServiceDetails>,
         loader: ({ params }) =>
-          fetch(`https://new-server-orpin.vercel.app/services/${params.id}`),
+          fetch(`https://new-server-es1pgz6bj-adrikasaha.vercel.app/services/${params.id}`),
       },
       {
         path: "/reviews/:id",
         element: <Review></Review>,
         loader: ({ params }) =>
-          fetch(`https://new-server-orpin.vercel.app/services/${params.id}`),
+          fetch(`https://new-server-es1pgz6bj-adrikasaha.vercel.app/services/${params.id}`),
       },
       {
         path: "/addServices",

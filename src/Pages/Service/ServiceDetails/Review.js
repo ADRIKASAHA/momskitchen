@@ -24,7 +24,7 @@ const Review = () => {
   const [revw, setRevw] = useState([]);
 
   useEffect(() => {
-    fetch("https://new-server-six.vercel.app/reviews")
+    fetch("https://new-server-es1pgz6bj-adrikasaha.vercel.app/reviews")
       .then((res) => res.json())
       .then((data) => {
         setRevw(data);
@@ -47,7 +47,7 @@ const Review = () => {
       description: description,
     };
 
-    fetch("https://new-server-six.vercel.app/addReviews", {
+    fetch("https://new-server-es1pgz6bj-adrikasaha.vercel.app/addReviews", {
       method: "POST",
       headers: {
         "content-type": "application/json",

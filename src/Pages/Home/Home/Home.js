@@ -26,7 +26,7 @@ const Home = () => {
   useTitle("Home");
 
   useEffect(() => {
-    fetch("https://new-server-six.vercel.app/serviceslimit")
+    fetch("https://new-server-es1pgz6bj-adrikasaha.vercel.app/serviceslimit")
       .then((res) => res.json())
       .then((data) => {
         setServices(data);
@@ -44,7 +44,7 @@ const Home = () => {
           alt="..."
           style={{ height: 400 }}
         />
-        <h2 className="text text-center">Welcome to our cloud Kitchen!</h2>
+        <h2 className="text text-center">Welcome to our MOM'S Kitchen!</h2>
       </div>
       <br />
       <div>

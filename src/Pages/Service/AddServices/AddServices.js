@@ -25,7 +25,7 @@ const AddServices = () => {
       description: description,
     };
 
-    fetch("https://new-server-six.vercel.app/addServices", {
+    fetch("https://new-server-orpin.vercel.app/addServices", {
       method: "POST",
       headers: {
         "content-type": "application/json",

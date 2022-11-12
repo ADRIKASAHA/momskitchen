@@ -24,7 +24,7 @@ const MyReviews = () => {
     console.log(id);
     const proceed = window.confirm("Are you sure to delete?");
     if (proceed) {
-      fetch(`https://new-server-six.vercel.app/reviews/${id}`, {
+      fetch(`https://new-server-es1pgz6bj-adrikasaha.vercel.app/reviews/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())
@@ -38,7 +38,7 @@ const MyReviews = () => {
   };
 
   useEffect(() => {
-    fetch("https://new-server-six.vercel.app/reviews")
+    fetch("https://new-server-es1pgz6bj-adrikasaha.vercel.app/reviews")
       .then((res) => res.json())
       .then((data) => {
         setRevw(data);
